@@ -1,0 +1,390 @@
+   1  yum update
+    2  curl checkip.amazonaws.com
+    3  curl http://169.254.169.254
+    4  curl http://169.254.169.254/
+    5  curl http://169.254.169.254/meta-data
+    6  curl http://169.254.169.254/1.0
+    7  curl http://169.254.169.254/1.0/meta-data
+    8  curl http://169.254.169.254/1.0/meta-data/ami-id
+    9  curl http://169.254.169.254/1.0/meta-data/security-groups
+   10  curl http://169.254.169.254/1.0/meta-data/instance-id
+   11  yum update
+   12  aws s3 ls
+   13  aws s3 ls
+   14  ls
+   15  touch sample-data.txt
+   16  ls
+   17  ls
+   18  vi sample-data.txt 
+   19  aws s3 cp sample-dat.txt s3://botsthread
+   20  ls
+   21  aws s3 cp sample-data.txt s3://botsthread
+   22  ls
+   23  touch file
+   24  ls
+   25  rm sample-data.txt 
+   26  ls
+   27  touch file2
+   28  ls
+   29  aws s3 cp . s3://archivetos3
+   30  aws s3 cp .. s3://archivetos3
+   31  aws s3 cp .. s3://archivetos3
+   32  aws s3 cp ./ s3://archivetos3
+   33  aws s3 cp / s3://archivetos3
+   34  aws s3 cp file s3://archivetos3
+   35  aws s3 cp .  s3://archivetos3
+   36  aws s3 mb s3://newjuly9
+   37  aws s3 mb s3://july-9-11pm
+   38  ls
+   39  whoami
+   40  hostname
+   41  ip a
+   42  uname
+   43  cat /etc/os-release
+   44  ls
+   45  cat file
+   46  echo "I'm coming from file" > file
+   47  cat file
+   48  ws s3 cp s3://july9news/aws_day2.txt .
+   49  aws s3 cp s3://july9news/aws_day2.txt .
+   50  ls
+   51  cat aws_day2.txt 
+   52  cat -n aws_day2.txt  
+   53  cat -n aws_day2.txt  
+   54  ls
+   55  mkdir aws
+   56  ls
+   57  cd aws
+   58  ls
+   59  touch awskeys
+   60  ls
+   61  cd ..
+   62  ls
+   63  ls
+   64  mkdir azure
+   65  ls
+   66  mkdir jenkins
+   67  ls
+   68  cd jenkins
+   69  ls
+   70  cd ..
+   71  rmdir jenkins
+   72  ls
+   73  vi shellscript.sh
+   74  ls
+   75  cat shellscript.sh 
+   76  ./shellscript.sh
+   77  chmod +x shellscript.sh 
+   78  ./shellscript.sh
+   79  ls
+   80  touch filename
+   81  ls
+   82  ls -lrt
+   83  ls
+   84  ls -l
+   85  ll
+   86  ls
+   87  mkdir dir1
+   88  ls
+   89  cd dir1
+   90  cd aws
+   91  ls
+   92  cd ..
+   93  cd aws
+   94  ls
+   95  cd ..
+   96  cd aws
+   97  ls
+   98  pwd
+   99  cd ..
+  100  ls
+  101  ls
+  102  cd /
+  103  ls
+  104  cd boot
+  105  ls
+  106  cd grub2
+  107  ls
+  108  cat grub.cfg 
+  109  cd ..
+  110  cd ..
+  111  ls
+  112  cd boot
+  113  ls
+  114  ls
+  115  cd grub2
+  116  ls
+  117  ls
+  118  pwd
+  119  cd ..
+  120  pwd
+  121  cd ..
+  122  pwd
+  123  ls
+  124  cd /etc
+  125  ls
+  126  cd nginx
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd var
+  131  ls
+  132  cd log
+  133  ls
+  134  cat boot.log
+  135  cd amazon
+  136  ls
+  137  cd ssm
+  138  ls
+  139  cat amazon-ssm-agent.log 
+  140  cd ..
+  141  ls
+  142  cd ..
+  143  ls
+  144  ls
+  145  pwd
+  146  cd ../..
+  147  l
+  148  ls
+  149  pwd
+  150  cd etc
+  151  ls
+  152  cd ..
+  153  ls
+  154  cd /etc/systemd
+  155  cd /etc
+  156  ls
+  157  cd systemd
+  158  ls
+  159  cd gnupg
+  160  ls
+  161  cd system
+  162  pwd
+  163  cd /
+  164  pwd
+  165  ls
+  166  cd home
+  167  ls
+  168  cd ec2-user/
+  169  ls
+  170  cat file
+  171  cp file dup_file
+  172  ls
+  173  cat dup_file 
+  174  cat file2
+  175  vi file2
+  176  cat file2 
+  177  cat file
+  178  cp file file2
+  179  ls
+  180  cat file2
+  181  ls
+  182  cd /
+  183  ls
+  184  cd boot
+  185  ls
+  186  cd grub2
+  187  ls
+  188  cp grub.cfg backup_grub.cfg
+  189  ls
+  190  cat backup_grub.cfg 
+  191  ls
+  192  mv backup_grub.cfg grub1.cfg
+  193  ls
+  194  cd /
+  195  ls
+  196  cd home
+  197  ls
+  198  cd ec2-user/
+  199  ls
+  200  cd azure
+  201  ls
+  202  touch arg sub vnet azuremonitor
+  203  ls
+  204  echo "azure resource group" > arg
+  205  ls
+  206  cat arg
+  207  ls
+  208  cd ..
+  209  ls
+  210  mkdir azure_copy
+  211  ls
+  212  cp azure azure_copy
+  213  cp -r azure azure_copy
+  214  ls
+  215  cd azure_copy/
+  216  ls
+  217  cd azure
+  218  ls
+  219  cat arg
+  220  cd ..
+  221  cd ..
+  222  ls
+  223  cd azure
+  224  ls
+  225  cat arg 
+  226  echo "azure subscriptions" >> arg
+  227  cat arg
+  228  echo "file gets overrided" > arg
+  229  cat arg
+  230  ls
+  231  cd ..
+  232  ls
+  233  rmdir dir1
+  234  rmdir azure_copy
+  235  rm -rf azure_copy/
+  236  ls
+  237  ls
+  238  ls
+  239  ls
+  240  ls
+  241  mkdir azure_bckup
+  242  ls
+  243  ls
+  244  cd azure
+  245  ls
+  246  pwd
+  247  ls
+  248  cp . /home/ec2-user/azure_bckup
+  249  cp -r . /home/ec2-user/azure_bckup
+  250  ls
+  251  cd ..
+  252  cd azure_bckup/
+  253  ls
+  254  ls
+  255  cd ..
+  256  ls
+  257  cd azure_bckup/
+  258  ls
+  259  lll
+  260  clear
+  261  pwd
+  262  ls
+  263  ls
+  264  mkdir gcloud
+  265  ls
+  266  ls
+  267  cd gcloud
+  268  pwd
+  269  ls
+  270  cd ..
+  271  ls
+  272  cat etc/os-relese
+  273  cd ..
+  274  ls
+  275  cat /etc/os-release
+  276  yum update
+  277  ls
+  278  ls
+  279  pwd
+  280  cd ec2-user/
+  281  ls
+  282  mkdir dir1 dir2 dir3 dir4
+  283  ls
+  284  tree
+  285  yum install tree
+  286  tree
+  287  tree
+  288  ls
+  289  cd gcloud
+  290  tree
+  291  mkdir gke ginstance gvnet
+  292  tree
+  293  cd ..
+  294  tree
+  295  mkdir ibmcloud/ibmk8s/ibmcluster
+  296  mkdir -p  ibmcloud/ibmk8s/ibmcluster
+  297  ls
+  298  tree
+  299  ls
+  300  ls -a
+  301  cd ibmcloud
+  302  ls
+  303  cd ibmk8s/
+  304  ls
+  305  cd ibmcluster/
+  306  ls
+  307  cd ..
+  308  pwd
+  309  cd ..
+  310  pwd
+  311  cd ..
+  312  ls
+  313  touch file
+  314  ls
+  315  touch file3 file4 file5
+  316  ls
+  317  tree
+  318  ls
+  319  cat <<EOF>> using_cat.txt
+  320  line1
+  321  line2
+  322  line3
+  323  line4
+  324  EOF
+  325  ls
+  326  cat using_cat.txt 
+  327  cat file3
+  328  cat <<EOF>> file3
+  329  I'm from file3
+  330  EOF
+  331  cat file3
+  332  ls
+  333  LS
+  334  LS
+  335  ls
+  336  cat file4
+  337  cp file3 file4
+  338  ls
+  339  cat file4
+  340  cp file3 file6
+  341  cat file6
+  342  ls
+  343  ls
+  344  mv  file3 gcloud
+  345  ls
+  346  tree gcloud
+  347  tree
+  348  ginstance
+  349  ├── gke
+  350  └── gvnet
+  351  ls
+  352  mv file6 latest_file
+  353  ls
+  354  mkdir latest_file
+  355  ls
+  356  ls -l
+  357  mkdir -f latest_file
+  358  ls
+  359  rm file
+  360  rm latest_file 
+  361  rm -i file4
+  362  rmdir dir1
+  363  tree
+  364  ls
+  365  ls -l
+  366  rm -rf gcloud
+  367  lsls
+  368  ls
+  369  ls -l
+  370  ls -lt
+  371  ls  -lrt
+  372  ls-a
+  373  ls -a
+  374  cd .ssh
+  375  ls
+  376  cat authorized_keys 
+  377  ls
+  378  cd -
+  379  pwd
+  380  tac using_cat.txt 
+  381  head -n 2 using_cat.txt 
+  382  tail using_cat.txt 
+  383  tail -n 2 using_cat.txt 
+  384  ls
+  385  tail -n 10 aws_day2.txt 
+  386  cat aws_day2.txt 
+  387  head  -n 10 aws_day2.txt 
+  388  cat -n using_cat.txt 
+  389  history
+  390  history > linux_commands.txt
