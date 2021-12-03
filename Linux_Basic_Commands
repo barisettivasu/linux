@@ -1,0 +1,134 @@
+ 1  clear
+    2  ls
+    3  touch file1.txt
+    4  ls
+    5  touch file2.txt
+    6  ls
+    7  ls -l
+    8  date
+    9  ls
+   10  vi file3.txt
+   11  ls
+   12  vi file4.txt
+   13  ls
+   14  cat file4.txt
+   15  ls
+   16  cat file3.txt
+   17  cat file1.txt
+   18  ls
+   19  clear
+   20  ls
+   21  ls -l
+   22  ls -lr
+   23  ls -lrt
+   24  touch file5.txt
+   25  ls -lrt
+   26  touch file6.txt
+   27  mkdir aws
+   28  ls
+   29  mkdir azure
+   30  ls
+   31  cd aws
+   32  ls
+   33  touch test
+   34  ls
+   35  cd ..
+   36  ls
+   37  cd azure/
+   38  ls
+   39  touch test2
+   40  ls
+   41  cd ..
+   42  ls
+   43  cat file6
+   44  cat file6.txt
+   45  vi file6.txt
+   46  vi file2.txt
+   47  cat file2.txt
+   48  touch awsdevops.txt terraform.txt jenkins.txt git.txt
+   49  ls
+   50  ls -l
+   51  ls -lt
+   52  ls -ltr
+   53  mkdir kubernetes
+   54  ls
+   55  cd kubernetes
+   56  ls
+   57  pwd
+   58  cd ..
+   59  pwd
+   60  mkdir cloud
+   61  ls
+   62  cd cloud
+   63  pwd
+   64  mkdir gcp
+   65  ls
+   66  pwd
+   67  cd gcp
+   68  pwd
+   69  ls
+   70  cd ../..
+   71  ls
+   72  mkdir -p ipl/mi
+   73  ls
+   74  cd ipl
+   75  ls
+   76  cd mi
+   77  pwd
+   78  cd ../..
+   79  ls
+   80  tree
+   81  apt install tree
+   82  ls
+   83  tree
+   84  ls
+   85  mkdir devops
+   86  cd devops
+   87  ls
+   88  mkdir tools
+   89  cd tools
+   90  mkdir git
+   91  cd git
+   92  ls
+   93  touch git_commands
+   94  ls
+   95  vi git_commands
+   96  pwd
+   97  ls
+   98  cd ../../..
+   99  ls
+  100  tree
+  101  ls
+  102  rmdir ipl
+  103  rm -r ipl
+  104  ls
+  105  rmdir kubernetes
+  106  ls
+  107  clear
+  108  tree
+  109  ls
+  110  rm file2.txt
+  111  ls
+  112  clear
+  113  history
+  114  tree
+  115  rm -rf devops
+  116  tree
+  117  rm -rf azure
+  118  ls
+  119  tree
+  120  rm file1.txt file3.txt file5.txt file6.txt
+  121  ls
+  122  rm file4.txt git.txt jenkins.txt terraform.txt
+  123  ls
+  124  rm awsdevops.txt
+  125  rm -rf aws
+  126  rm -rf cloud
+  127  ls
+  128  clear
+  129  tree
+  130  pwd
+  131  history
+  132  1  clear
+  133  clear
+  134  history
